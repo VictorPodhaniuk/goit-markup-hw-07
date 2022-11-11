@@ -1,0 +1,17 @@
+@import './utils/vars';
+@import './base/reset';
+@import './components/body';
+@import './components/container';
+@import './components/hidden-title';
+
+@import './layouts/header';
+@import './layouts/footer';
+
+@import './studio/hero';
+@import './studio/section-features';
+@import './studio/section-activities';
+@import './studio/section-team';
+@import './studio/section-customers';
+@import './studio/modal-win';
+
+@import './portfolio/section-main'

@@ -18,8 +18,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -132,25 +132,31 @@
           <h2 class="activities-title title">Чим ми займаємося</h2>
           <ul class="activities-list list">
             <li class="activities-item">
+              <div class="wrap-activities">
               <img
                 src="./image/programer.jpg"
                 alt="Програміст набирає код"
                 width="370"
               />
+              <p class="name-activities">Десктопні додатки</p></div>
             </li>
             <li class="activities-item">
+              <div class="wrap-activities">
               <img
                 src="./image/designer.jpg"
                 alt="Дизайнер працює за ноутбуком"
                 width="370"
               />
+              <p class="name-activities">Мобільні додатки</p></div>
             </li>
             <li class="activities-item">
+              <div class="wrap-activities">
               <img
                 src="./image/artist.jpg"
                 alt="Креативний художник обирає колір"
                 width="370"
               />
+              <p class="name-activities">Дизайнерські рішення</p></div>
             </li>
           </ul>
         </div>
@@ -549,21 +555,21 @@
           <p class="title-mail">Підпишіться на розсилку</p>
           <form class="footer-form">
             <!-- <div class="mail-wrap"> -->
-              <label for="footer-email" class="footer-lable"></label>
-              <input
-                type="text"
-                name="footer-email"
-                class="footer-input"
-                id="footer-email"
-                required
-                placeholder="E-mail"
-              />
-              <button class="footer-btn" type="submit">
-                Підписатися
-                <svg class="icon-btn">
-                  <use href="./image/symbol-defs.svg#icon-send"></use>
-                </svg>
-              </button>
+            <label for="footer-email" class="footer-lable"></label>
+            <input
+              type="text"
+              name="footer-email"
+              class="footer-input"
+              id="footer-email"
+              required
+              placeholder="E-mail"
+            />
+            <button class="footer-btn" type="submit">
+              Підписатися
+              <svg class="icon-btn">
+                <use href="./image/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
             <!-- </div> -->
           </form>
         </div>
@@ -619,15 +625,26 @@
             </svg>
           </div>
           <label for="user-comment" class="input-lable">Коментар</label>
-            <textarea name="user-comment" id="user-comment" class="input-comment" placeholder="Введіть текст"></textarea>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="input-comment"
+            placeholder="Введіть текст"
+          ></textarea>
           <label class="label-policy">
-            <input class="checkbox" type="checkbox" name="policy" value="true" />
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="policy"
+              value="true"
+            />
             <span class="icon">
               <svg class="icon-checkbox" width="14" height="13">
                 <use href="./image/symbol-defs.svg#icon-check"></use>
               </svg>
             </span>
-            Погоджуюся з розсилкою та приймаю <a class="contract">Умови договору</a> 
+            Погоджуюся з розсилкою та приймаю
+            <a class="contract">Умови договору</a>
           </label>
           <button class="btn-modal" type="submit">Відправити</button>
         </form>
