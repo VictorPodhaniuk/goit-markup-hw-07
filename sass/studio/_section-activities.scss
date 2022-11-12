@@ -6,9 +6,6 @@
   display: flex;
 }
 
-.activities__item + .activities__item {
-  margin-left: var(--card-set-gap);
-}
 
 .activities__title {
   margin-bottom: 50px;
@@ -21,6 +18,9 @@
 
 .activities__item {
   list-style-type: none;
+  & + & {
+    margin-left: var(--card-set-gap);
+  }
 }
 
 .activities__wrap {

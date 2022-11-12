@@ -8,13 +8,13 @@
   flex-wrap: wrap;
 }
 
-.specifics__item + .specifics__item {
-  margin-left: var(--card-set-gap);
-}
 
 .specifics__item {
   list-style-type: none;
   width: 270px;
+  & + & {
+    margin-left: var(--card-set-gap);
+  }
 }
 
 .specifics__bgr {

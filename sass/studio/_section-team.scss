@@ -8,9 +8,7 @@
   display: flex;
 }
 
-.team-item + .team-item {
-  margin-left: var(--card-set-gap);
-}
+
 
 .team-title {
   margin-bottom: 50px;
@@ -26,6 +24,9 @@
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+    & + & {
+      margin-left: var(--card-set-gap);
+    }
 }
 
 .name-wrap {
@@ -75,12 +76,11 @@
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-link:hover,
-.icon-link:focus {
-  background-color: var(--blue-color);
-  color: var(--white-color);
+    &:hover,
+    &:focus {
+      background-color: var(--blue-color);
+      color: var(--white-color);
+  }
 }
 
 .icon-social-team {
