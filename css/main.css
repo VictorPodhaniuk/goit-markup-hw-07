@@ -73,16 +73,16 @@ body {
   border-bottom: 1px solid var(--border-header-color);
 }
 
-.nav-list .nav-link.current {
+.menu .menu__link.current {
   color: var(--blue-color);
 }
 
-.main-nav {
+.header__main {
   display: flex;
   align-items: center;
 }
 
-.header-logo {
+.navigation__logo {
   margin-right: 93px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -93,24 +93,24 @@ body {
   color: var(--primary-text-color);
 }
 
-.part-logo {
+.logo__part {
   color: var(--blue-color);
 }
 
-.nav-list {
+.menu {
   display: flex;
 }
 
-.nav-item + .nav-item {
+.menu__item + .menu__item {
   margin-left: 50px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.menu__link:hover,
+.menu__link:focus {
   color: var(--blue-color);
 }
 
-.nav-link {
+.menu__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -123,7 +123,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link.current::after {
+.menu__link.current::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -134,21 +134,21 @@ body {
   bottom: -1%;
 }
 
-.header-list {
+.header__contacts {
   margin-left: auto;
   display: flex;
   align-items: center;
 }
 
-.header-item + .header-item {
+.contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
-.header-item {
+.contacts__item {
   list-style-type: none;
 }
 
-.header-link {
+.contacts__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -163,13 +163,12 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-mail,
-.icon-smartphone {
+.contacts__icon {
   fill: currentColor;
 }
 
-.header-link:hover,
-.header-link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: var(--blue-color);
 }
 
@@ -368,7 +367,7 @@ body {
   fill: var(--white-color);
 }
 
-.hero {
+.hero__section {
   background-color: #c4c4c4;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../image/Img.jpg");
   background-position: center;
@@ -382,7 +381,7 @@ body {
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   flex-wrap: wrap;
   margin-right: auto;
   margin-left: auto;
@@ -397,14 +396,14 @@ body {
   color: var(--white-color);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
   background-color: var(--accent-btn-background-color);
   cursor: pointer;
   border-color: transparent;
 }
 
-.hero-btn {
+.hero__btn {
   padding: 10px 32px;
   border-radius: 4px;
   border-color: transparent;
@@ -418,26 +417,26 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.features {
+.features__section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.features-list {
+.specifics {
   display: flex;
   flex-wrap: wrap;
 }
 
-.features-item + .features-item {
+.specifics__item + .specifics__item {
   margin-left: var(--card-set-gap);
 }
 
-.features-item {
+.specifics__item {
   list-style-type: none;
   width: 270px;
 }
 
-.bgr-icon {
+.specifics__bgr {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -447,7 +446,7 @@ body {
   border-radius: 4px;
 }
 
-.features-subtitle {
+.specifics__subtitle {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
@@ -455,26 +454,26 @@ body {
   text-transform: uppercase;
 }
 
-.features-text {
+.text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
-.activities {
+.activities__section {
   padding-bottom: 94px;
 }
 
-.activities-list {
+.activities__list {
   display: flex;
 }
 
-.activities-item + .activities-item {
+.activities__item + .activities__item {
   margin-left: var(--card-set-gap);
 }
 
-.activities-title {
+.activities__title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.16;
@@ -482,15 +481,15 @@ body {
   letter-spacing: 0.03em;
 }
 
-.activities-item {
+.activities__item {
   list-style-type: none;
 }
 
-.wrap-activities {
+.activities__wrap {
   position: relative;
 }
 
-.name-activities {
+.activities__name {
   position: absolute;
   left: 0;
   bottom: 0;

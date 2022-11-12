@@ -23,36 +23,36 @@
   </head>
   <body>
     <header class="header">
-      <div class="container main-nav">
-        <nav class="header-navigation main-nav">
-          <a class="header-logo" href="./index.html"
-            ><span class="part-logo">Web</span>Studio</a
+      <div class="container header__main">
+        <nav class="navigation header__main">
+          <a class="logo navigation__logo" href="./index.html"
+            ><span class="logo__part">Web</span>Studio</a
           >
-          <ul class="nav-list list">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link current link">Студія</a>
+          <ul class="menu list">
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link current link">Студія</a>
             </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="nav-link link">Портфоліо</a>
+            <li class="menu__item">
+              <a href="./portfolio.html" class="menu__link link">Портфоліо</a>
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link link">Контакти</a>
+            <li class="menu__item">
+              <a href="#" class="menu__link link">Контакти</a>
             </li>
           </ul>
         </nav>
         <!--contacts header-->
-        <ul class="header-list list">
-          <li class="header-item">
-            <a class="header-link link" href="mailto:info@devstudio.com">
-              <svg class="icon-mail" width="16px" height="12px">
+        <ul class="contacts header__contacts list">
+          <li class="contacts__item">
+            <a class="contacts__link link" href="mailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16px" height="12px">
                 <use href="./image/symbol-defs.svg#icon-envelope-hover"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="header-item">
-            <a class="header-link link" href="tel:+380961111111">
-              <svg class="icon-smartphone" width="10px" height="16px">
+          <li class="contacts__item">
+            <a class="contacts__link link" href="tel:+380961111111">
+              <svg class="contacts__icon" width="10px" height="16px">
                 <use href="./image/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -62,63 +62,65 @@
       </div>
     </header>
     <main>
-      <!--section caption-->
-      <section class="hero">
-        <div class="container">
-          <h1 class="hero-title title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-btn" data-modal-open>
+      <!--section hero-->
+      <section class="hero hero__section">
+        <div class="container hero__container">
+          <h1 class="title hero__title">
+            Ефективні рішення для вашого бізнесу
+          </h1>
+          <button class="btn hero__btn" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
       </section>
       <!--section our features-->
-      <section class="features">
-        <div class="container">
-          <h2 class="visually-hidden title">Наші особливості</h2>
-          <ul class="features-list list">
-            <li class="features-item">
-              <div class="bgr-icon">
-                <svg class="icon-features" width="70px" height="70px">
+      <section class="features features__section">
+        <div class="container features__container">
+          <h2 class="visually-hidden">Наші особливості</h2>
+          <ul class="specifics list">
+            <li class="specifics__item">
+              <div class="specifics__bgr">
+                <svg class="specifics__icon" width="70px" height="70px">
                   <use href="./image/symbol-defs.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="features-subtitle title">Увага до деталей</h3>
-              <p class="features-text text">
+              <h3 class="subtitle specifics__subtitle">Увага до деталей</h3>
+              <p class="text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="features-item">
-              <div class="bgr-icon">
-                <svg class="icon-features" width="70px" height="70px">
+            <li class="specifics__item">
+              <div class="specifics__bgr">
+                <svg class="specifics__icon" width="70px" height="70px">
                   <use href="./image/symbol-defs.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="features-subtitle title">Пунктуальність</h3>
-              <p class="features-text text">
+              <h3 class="subtitle specifics__subtitle">Пунктуальність</h3>
+              <p class="text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="features-item">
-              <div class="bgr-icon">
-                <svg class="icon-features" width="70px" height="70px">
+            <li class="specifics__item">
+              <div class="specifics__bgr">
+                <svg class="specifics__icon" width="70px" height="70px">
                   <use href="./image/symbol-defs.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="features-subtitle title">Планування</h3>
-              <p class="features-text text">
+              <h3 class="subtitle specifics__subtitle">Планування</h3>
+              <p class="text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="features-item">
-              <div class="bgr-icon">
+            <li class="specifics__item">
+              <div class="specifics__bgr">
                 <svg class="icon-features" width="70px" height="70px">
                   <use href="./image/symbol-defs.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="features-subtitle title">Сучасні технології</h3>
-              <p class="features-text text">
+              <h3 class="subtitle specifics__subtitle">Сучасні технології</h3>
+              <p class="text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -127,36 +129,39 @@
         </div>
       </section>
       <!--section our activities-->
-      <section class="activities">
-        <div class="container">
-          <h2 class="activities-title title">Чим ми займаємося</h2>
-          <ul class="activities-list list">
-            <li class="activities-item">
-              <div class="wrap-activities">
-              <img
-                src="./image/programer.jpg"
-                alt="Програміст набирає код"
-                width="370"
-              />
-              <p class="name-activities">Десктопні додатки</p></div>
+      <section class="activities activities__section">
+        <div class="container activities__container">
+          <h2 class="activities__title">Чим ми займаємося</h2>
+          <ul class="activities__list">
+            <li class="activities__item">
+              <div class="activities__wrap">
+                <img
+                  src="./image/programer.jpg"
+                  alt="Програміст набирає код"
+                  width="370"
+                />
+                <p class="activities__name">Десктопні додатки</p>
+              </div>
             </li>
-            <li class="activities-item">
-              <div class="wrap-activities">
-              <img
-                src="./image/designer.jpg"
-                alt="Дизайнер працює за ноутбуком"
-                width="370"
-              />
-              <p class="name-activities">Мобільні додатки</p></div>
+            <li class="activities__item">
+              <div class="activities__wrap">
+                <img
+                  src="./image/designer.jpg"
+                  alt="Дизайнер працює за ноутбуком"
+                  width="370"
+                />
+                <p class="activities__name">Мобільні додатки</p>
+              </div>
             </li>
-            <li class="activities-item">
-              <div class="wrap-activities">
-              <img
-                src="./image/artist.jpg"
-                alt="Креативний художник обирає колір"
-                width="370"
-              />
-              <p class="name-activities">Дизайнерські рішення</p></div>
+            <li class="activities__item">
+              <div class="activities__wrap">
+                <img
+                  src="./image/artist.jpg"
+                  alt="Креативний художник обирає колір"
+                  width="370"
+                />
+                <p class="activities__name">Дизайнерські рішення</p>
+              </div>
             </li>
           </ul>
         </div>

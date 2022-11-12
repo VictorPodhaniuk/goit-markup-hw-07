@@ -1,23 +1,23 @@
-.features {
+.features__section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.features-list {
+.specifics {
   display: flex;
   flex-wrap: wrap;
 }
 
-.features-item + .features-item {
+.specifics__item + .specifics__item {
   margin-left: var(--card-set-gap);
 }
 
-.features-item {
+.specifics__item {
   list-style-type: none;
   width: 270px;
 }
 
-.bgr-icon {
+.specifics__bgr {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@
   border-radius: 4px;
 }
 
-.features-subtitle {
+.specifics__subtitle {
   margin-bottom: 10px;
 
   font-size: 14px;
@@ -37,7 +37,7 @@
   text-transform: uppercase;
 }
 
-.features-text {
+.text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

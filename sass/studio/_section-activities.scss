@@ -1,16 +1,16 @@
-.activities {
+.activities__section {
   padding-bottom: 94px;
 }
 
-.activities-list {
+.activities__list {
   display: flex;
 }
 
-.activities-item + .activities-item {
+.activities__item + .activities__item {
   margin-left: var(--card-set-gap);
 }
 
-.activities-title {
+.activities__title {
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -19,15 +19,15 @@
   letter-spacing: 0.03em;
 }
 
-.activities-item {
+.activities__item {
   list-style-type: none;
 }
 
-.wrap-activities {
+.activities__wrap {
   position: relative;
 }
 
-.name-activities {
+.activities__name {
   position: absolute;
   left: 0;
   bottom: 0;
