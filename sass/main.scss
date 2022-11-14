@@ -1,17 +1,17 @@
 @import './utils/variables';
 @import './base/reset';
-@import './components/body';
-@import './components/container';
-@import './components/hidden-title';
+@import './base/body';
+@import './base/container';
+@import './base/hidden-title';
 
 @import './layouts/header';
 @import './layouts/footer';
 
-@import './studio/hero';
-@import './studio/section-features';
-@import './studio/section-activities';
-@import './studio/section-team';
-@import './studio/section-customers';
-@import './studio/modal-win';
+@import './components/studio/hero';
+@import './components/studio/section-features';
+@import './components/studio/section-activities';
+@import './components/studio/section-team';
+@import './components/studio/section-customers';
+@import './components/studio/modal-win';
 
-@import './portfolio/section-main'
+@import './components/portfolio/section-main';

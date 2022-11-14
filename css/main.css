@@ -496,11 +496,11 @@ body {
   padding-bottom: 94px;
 }
 
-.team-list {
+.team__list {
   display: flex;
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.16;
@@ -508,12 +508,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.team-item {
+.team__item {
   list-style-type: none;
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.team-item + .team-item {
+.team__item + .team__item {
   margin-left: var(--card-set-gap);
 }
 
@@ -521,7 +521,7 @@ body {
   padding: var(--card-set-gap);
 }
 
-.team-name {
+.name-wrap__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -530,7 +530,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.team-position {
+.name-wrap__position {
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-text-color);
@@ -539,7 +539,7 @@ body {
   margin-bottom: 16px;
 }
 
-.icon-list {
+.name-wrap__icons {
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -911,9 +911,6 @@ body {
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
 }
-.item-projects:hover .projects-link-text {
-  transform: translateY(0);
-}
 
 .link-projects {
   display: block;
@@ -922,6 +919,9 @@ body {
 }
 .link-projects:focus, .link-projects:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.link-projects:hover .projects-link-text, .link-projects:focus .projects-link-text {
+  transform: translateY(0);
 }
 
 .projects-wrap {
